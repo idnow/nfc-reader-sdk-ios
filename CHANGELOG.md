@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.2] - 2026-06-29
+### Added
+- Fix reading errors
+- Use KeyID for chip authentication
+
 ## [1.4.1] - 2026-06-25
 ### Added
 - Update OpenSSL
