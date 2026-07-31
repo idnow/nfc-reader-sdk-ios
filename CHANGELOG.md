@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.4] - 2026-07-30
+### Fixed
+- Errors handling
+
 ## [1.4.3] - 2026-07-23
 ### Added
 - Adding timeout of 30s when no tag is detected
