@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.5] - 2026-08-28
+### Added
+- Support for PACE Integrated Mapping (IM) with DH and ECDH
+- Support for the 3DES cipher with PACE Integrated Mapping
+### Fixed
+- Verify the secure messaging response MAC on AES (PACE) sessions
+- Correct terminal nonce length for AES-192 in PACE Integrated Mapping
+- Enforce a valid mapped generator for PACE Integrated Mapping with DH
+- Prevent crashes on malformed chip responses during PACE
+
 ## [1.4.4] - 2026-07-30
 ### Fixed
 - Errors handling

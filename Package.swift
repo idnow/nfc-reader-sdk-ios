@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NFCReaderLibrary",
-            url: "https://github.com/idnow/nfc-reader-sdk-ios/releases/download/1.4.4/NFCReader.xcframework.zip",
-            checksum: "f51a205bd10a41ede7aa7e7f684932ef4e09627085f79f06d392d9a8ff9a16f4"
+            url: "https://github.com/idnow/nfc-reader-sdk-ios/releases/download/1.4.5/NFCReader.xcframework.zip",
+            checksum: "a2693f2afdbe2f7ddf379ee283e2719cc31dbc67ec86c8d4b863b63bbdaba5f1"
         ),
         .target(
              // Main target which contains both NFCReader and the OpenSSL dependency. Automatically downloaded when client fetch NFCReader.
