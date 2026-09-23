@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0] - 2026-09-23
+### Added
+- Haptic feedback when an NFC tag is detected
+- Finer-grained error hierarchy (AuthenticationError, ReadingError, ISO7816 status-word mapping)
+- Per-data-group read retry with a configurable maximum
+### Changed
+- Smoother NFC read progress bar with accurate intra-data-group progress
+
 ## [1.4.5] - 2026-08-28
 ### Added
 - Support for PACE Integrated Mapping (IM) with DH and ECDH
