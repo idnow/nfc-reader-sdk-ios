@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.1] - 2026-10-01
+### Fixed
+- Request an extended-length response for Active Authentication when the DG15 public key exceeds 231 bytes (passports with large keys, e.g. Mexican passports, previously failed)
+- Strictly require the ISO 7816 status word 9000 for a successful read (a wrong status word could be mistaken for success)
+- Propagate the underlying error as the cause of the Active Authentication challenge error
+
 ## [1.5.0] - 2026-09-23
 ### Added
 - Haptic feedback when an NFC tag is detected
