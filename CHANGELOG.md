@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.2] - 2026-10-16
+### Changed
+- Reduced the SDK binary size (size-optimized Swift compilation, link-time optimization, stripped non-public symbols and reflection metadata names)
+
 ## [1.5.1] - 2026-10-01
 ### Fixed
 - Request an extended-length response for Active Authentication when the DG15 public key exceeds 231 bytes (passports with large keys, e.g. Mexican passports, previously failed)
