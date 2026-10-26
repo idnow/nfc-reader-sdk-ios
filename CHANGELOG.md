@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.3] - 2026-10-26
+### Fixed
+- Restore the correct eMRTD application selection order for BAC (the application is now selected before BAC authentication)
+
 ## [1.5.2] - 2026-10-16
 ### Changed
 - Reduced the SDK binary size (size-optimized Swift compilation, link-time optimization, stripped non-public symbols and reflection metadata names)
